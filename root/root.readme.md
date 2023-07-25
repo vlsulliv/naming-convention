@@ -1,17 +1,26 @@
-[Windows System](#windows-suste) / Root 
+# Root
 
-File Naming Concentions for Local Files in Windows OS
 
-<div style="text-align: center;"></div>
+- [Root](#root)
+- [Folder Structure and Content](#Folder-Structure-and-Content)
+- [Date](#date)
+- [Naming Case](#naming-case)
+- [Increment](#increment)
 
->Last modified: Jul 2, 2023  
+## Folder Structure and Content
 
-- [File Name Construction](#file-name-construction)
-  - [Special Charecters](#special-characters)
-  - [Date](#date)
-  - [Naming Case](#naming-case)
-  - [Increment](#increment)
+folder structure, content categories stored in each folder, and accepted file formats.
 
+| `Items`                                                        | `File Contents`                                             | `File Extensions`             |
+| -------------------------------------------------------------- | ----------------------------------------------------------- | ----------------------------- |
+| [Archive](../../naming-conventions/root/archives/README.md)    | Websites, datasets, backups, resources past retion date     | gz, zip, gzip                 |
+| [Music](../../naming-conventions/root/Music/README.md)         | Music, SoundFX, Podcasts, Audiobooks, Recordings, album art | mp3, ogg, aac, jpg            |
+| [Documents](../../naming-conventions/root/Documents/README.md) | Notes, Personal documents (Invoices, letters, emails)       | pdf,doc,ppt,xls               |
+| [Games](../../naming-conventions/root/Games/README.md)         | Computer, arcade, any-other, extention packs                | exe                           |
+| [Images](../../naming-conventions/root/Images/README.md)       | Photography, Art, memes, etc                                | raw, jpg, gif                 |
+| [Library](../../naming-conventions/root/Library/README.md)     | Books, writings, scientific papers, articles, magazines     | epub, mobi, pdf               |
+| [Software](../../naming-conventions/root/Software/README.md)   | Applications, mobile apps, OS's, Typography                 | exe                           |
+| [Video](../../naming-conventions/root/Video/README.md)         | Movies, Shows, Tutorials                                    | mp4, avi, flac, m4a, m4b, ogg |
 
 ## File Name Construction
 
@@ -24,68 +33,11 @@ File names will consist of multiple sections and the order of each section shoul
  5. Contents of the file
  6. Name/ initials
 
-### Special Characters
-
-Suggested format: W3C/ISO 8601 date standard, which specifies the international standard notation of YYYY-MM-DD or YYYY-MM-DDThh:mm:ss.
-
-Use dashes (-) as deliminator. Periods are allowed in some cases, but their compatibility is system specific. Avoid using special characters, such as: `*`, `:`, `,`, `/`, `<`, `>`, `,`, `|`, `"`, `!`, `?`, `[`, `]`, `;`, `=`, `+`, `&`, `£`, `$`, `€`, `%`, or `,`. Their use may be incompatible on other operating systems and create problems. Only use dash (-) in file names as delimiters to improve readability and OS compatibility. Do not use underscores (_) or spaces - spaces can potentially break URLs (see naming advice from [goole developer docs](https://developers.google.com/style/code-in-text#grammatical-treatment-of-code-elements) for explanation on spaces in files names).
-
-### Date 
-
-Dates will follow the [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) standards established by the  International Organization for Standardization defining the methods of representing dates and times in textual form. An example of a date/time stamp is `20230910T2253326644Z`, the sections are defined as:
-
-Where:  
-   * yyyymmdd = date with YearMonthDate configuration.
-   * T = Designates the end of date and the start of time representation. 
-   * hhmmss = time with HourMinuteSecond configuration.
-   * Z = UTC zone designator
-    
-### Naming Case
-
- - Pascal Case: will be used for all folder names (ex: TestNamePattern)
- - Kebab Case: will be used for all file names (ex: auto-clear-mocks)
-
-See drop down for other font casing options.
-
-<details><summary>File Structure</summary>
-
-   * Camel Case:  testNamePattern    
-   * Snake Case:  clear_cache  
-
-</details>
-
-### Increment
-   *  001 ,  002 ,  003  
-   *  Vol. 1 ,  Vol. 2 ,  Vol. 3  
-   *  Disk 1 ,  Disk 2 ,  Disk 3  
-
-
-
-
 
 ---
 
-
-The release notes are divided into the following cate
-
-
-The following is the syntax for file names. Each presents additional considerations about usibility beyond the local windows file system, which have implications as far as limiting syntax. To keep consistantcy while allowing room for future schema resolutions, the syntax is:
-
-The
-Descriptive  
-Readable  
-Consistent  
-Contextual  
-Future-friendly  
-Extensible  
-Reusable  
-Brief (short/succinct)  
-
-
-
----
 <div style="text-align: center;">
 
-[Back to Top](#back-to-top)
+[Back to Top](#root)
 
 </div>

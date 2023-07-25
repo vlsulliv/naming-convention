@@ -1,25 +1,18 @@
 # Videos
 
-
-This folder will store video file types and auxillary file types such as movie poster (jpg, png, etc...) or subtitles (txt, srt, etc...). 
+this folder will store video file types and auxillary file types such as movie poster (jpg, png, etc...) or subtitles (txt, srt, etc...). 
 Other files such as subtitles, movie posters, etc... should go in the same folder. Folder and movie name should be same.
-
-
-Film & Television files follow the [PLEX](https://support.plex.tv/articles/local-files-for-trailers-and-extras/) framework for file structure to to increase the scanning speed of new media.
-
  
-Table of Contents
-===
+## Table of Contents
+
 - [Videos](#videos)
-- [Table of Contents](#table-of-contents)
 - [Contents](#contents)
+- [File Formats](#File-Formats)
 - [Naming](#naming)
-    - [Movies](#movies)
-    - [TV Shows](#tv-shows)
-    - [Learning](#learning)
 - [Resources](#resources)
 
-# Contents
+## Contents
+
 | `Category`       | `Description`                                                   |
 | ---------------- |  -------------------------------------------------------------- |
 | Films            | full length movies and specials e.g comedy specials             |
@@ -28,85 +21,70 @@ Table of Contents
 | Social           |                                                                 |
 | Instructional    | videos that deliver information needed to complete a task       |
 
+## File Formats
 
- 
+**video**: `*.{mp4,avi,flac,m4a,m4b,ogg}`  
+**movie poster**: `*.{jpg,png,tbn}`  
+**subtitle files** `*.{SRT,SMI,SSA (or ASS)}`
 
-**Movie Poster Formats**: `*.{ jpg, jpeg, png, tbn }`<br> 
-**Video Fomats**: *.{mp4,avi,flac,m4a,m4b,ogg}`<br>
+- pt1, pt2, etc.
+- cd1, cd2, etc.
 
+- `title` and `show`: are synonymous  
+- `s`, `se`, or `season`: indicating a season number.
+- `e`, `ep`, or `episode`: indicating an episode number. 
+- `sp`, or `special`: indicating an special number; this is equivalent to ep  
+- `year`: sets the release year of the series.
 
+## Naming
 
-# Naming
+**Movies**
 
+- /`Movies`/`MovieName-ReleaseYear`/`MovieName-ReleaseYear`.`ext`
 
-### Films
-
-```
-Movie Title (YYYY) / Movie-Title (YYYY).ext
-                   / Extra-File1.ext
-                   / Extra-File2.ext
-
-
-EX:
-Topic - Description (YYYY)
-Technology - Intro In Javascript (YYYY).ext
-
-```
-
-### ShortFilms
-
-```
-[Production Company] - [Title] (YYYY).ext
-Creator Name - Title (YYYY).ext
-
-
-Ex:
-The Art of The Short - Knives (1997).ext
-Aaron Paradox - Crazy Like Me (2020).ext
-
+```text
+/Movies
+    /Avatar (2009)
+        /Avatar (2009).mkv
+    /Batman Begins (2005)
+      Batman Begins (2005).mp4
+      Batman Begins (2005).en.srt
+      poster.jpg
 ```
 
+**TV Shows**
 
+- /`TV Shows`/`ShowName-ReleaseYear`/`Season##`/`sXXeXX-EpisodeName.ext`
 
+```text
+/TV Shows
+   /Doctor-Who (1963)
+      /Season 01
+         s01e01-An Unearthly Child.mp4
+         s01e02-The Cave of Skulls.mp4
 
-### TV Shows
-
+   /From the Earth to the Moon (1998)
+      /Season 01 (1998)
+         s01e01-From the Earth to the Moon.mp4
+         s01e02-From the Earth to the Moon.mp4
 ```
-**Use show name for the name of the folder that contain the episode video files. The name of the individual files include "Episode Number" and "name of episode" seperated by a hyphen.
 
-EX:
-[Show-Name (Season##)] / Episode## - Title of Episode.ext
-  
-Ex:
-The Office (Season02) / Eposide01 - Learn CPR
+**Instructional**
+
+- /`Instructional`/`Topic`/`Description-DownloadDate.ext`
+
+```text
+/Instructional
+    /technology
+        intro-to-javascript-20010204.mp4
 ```
 
-### Instuctional
+## Resources
 
-```
-**Start with video topic, then short video desription followed the year downloaded in paranthesis.
-
-
-[Subect] (YYYY)
-CourseName (Subject) /  Topic Pt.01.ext
-
-
-Ex:
-Learn With Henry (Math) / Linear Alegra Pt.01.ext
-                          Calculus Pt.02.ext
-``` 
-
-# Resources
-
-File Management Software  
- . [dropit](http://www.dropitproject.com/)   
- . [Kodi](https://kodi.wiki/view/Naming_video_files/Movies)  
- . [free file sync](https://freefilesync.org/)  
- . [Plex](https://support.plex.tv/articles/categories/media-preparation/)  
-
-Standards  
- . [ISO-639-1/B codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)  
- . [ISO-639-2/B codes](https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes)  
+- [Kodi](https://kodi.wiki/view/Naming_video_files/Movies): file Management  
+- [Plex](https://support.plex.tv/articles/categories/media-preparation/): file Management  
+- [ISO-639-1/B codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes): language codes,  two-letter codes, one per language  
+- [ISO-639-2/B codes](https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes):  language codes, three-letter codes
 
 ---
 

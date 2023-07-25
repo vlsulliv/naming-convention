@@ -38,6 +38,7 @@ application/configFile
 repository-name
 ```
 ### Typefaces
+
 ```
 typeface 01
 typeface 02

@@ -27,21 +27,10 @@ list of technical conventions and restrictions chosen to maximize portability in
 - words are separated by a hyphen (-).
 - maximum length (with pathname) of 256 characters
 - date standard formats, [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) (e.g. timestamp with YYYYMMDD)
+- kebab case: will be used for all file names (ex: auto-clear-mocks)
+- pascal Case: will be used for all folder names (ex: TestNamePattern)
+- increment with zeros (ex: 001,  002,  003)
 
-## Folder Structure and Content
-
-fFolder structure, content categories stored in each folder, and accepted file formats.
-
-| `Items`                                                        | `File Contents`                                             | `File Extensions`             |
-| -------------------------------------------------------------- | ----------------------------------------------------------- | ----------------------------- |
-| [Archive](../../naming-conventions/root/archives/README.md)    | Websites, datasets, backups, resources past retion date     | gz, zip, gzip                 |
-| [Music](../../naming-conventions/root/Music/README.md)         | Music, SoundFX, Podcasts, Audiobooks, Recordings, album art | mp3, ogg, aac, jpg            |
-| [Documents](../../naming-conventions/root/Documents/README.md) | Notes, Personal documents (Invoices, letters, emails)       | pdf,doc,ppt,xls               |
-| [Games](../../naming-conventions/root/Games/README.md)         | Computer, arcade, any-other, extention packs                | exe                           |
-| [Images](../../naming-conventions/root/Images/README.md)       | Photography, Art, memes, etc                                | raw, jpg, gif                 |
-| [Library](../../naming-conventions/root/Library/README.md)     | Books, writings, scientific papers, articles, magazines     | epub, mobi, pdf               |
-| [Software](../../naming-conventions/root/Software/README.md)   | Applications, mobile apps, OS's, Typography                 | exe                           |
-| [Video](../../naming-conventions/root/Video/README.md)         | Movies, Shows, Tutorials                                    | mp4, avi, flac, m4a, m4b, ogg |
 ## Resources
 
 - [ISO-639-1/B codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
@@ -60,4 +49,8 @@ created under the [MIT](/LICENSE) license
 
 ---
 
-Made with ❤️ by Vince
+<div style="text-align: center;">
+
+[Back to Top](#naming-convention)
+
+</div>
