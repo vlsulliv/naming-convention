@@ -2,8 +2,6 @@
 
 > This is plain DVD/BD Dumps of Movies/Series/Documentaries/etc.
 
-
-
 ## Naming
 
 DVD Examples:

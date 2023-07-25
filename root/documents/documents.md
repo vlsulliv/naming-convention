@@ -1,4 +1,4 @@
-# Archive
+# Documents
 
 The (digital) audio section contains any kind of sound that is contained within a file - such as music, sounds, sound effects, podcasts, audiobooks, event recordings (musicals, concerts, standup comedy), games and many others.
 
