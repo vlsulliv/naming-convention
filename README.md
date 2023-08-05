@@ -18,9 +18,10 @@ local file naming style guide
 
 file names are unique entities that identify the its location in a file system. The naming convention is meant to be a systematic method for naming files to make them easier organize. There are OS-specific syntax rules to consider for name specifications.
 
-## Naming Rules
+## Names
 
-list of technical conventions and restrictions chosen to maximize portability include:
+Ampersands
+- Use "and" rather than an ampersand unless you’re referencing a brand name, for example: Procter & Gamble.
 
 - no special signs (e.g., * . ” / \ [ ] : ; | = , < ? > & $ # ! ‘( ) { })
 - names are written in lowercase letters.
@@ -30,6 +31,8 @@ list of technical conventions and restrictions chosen to maximize portability in
 - kebab case: will be used for all file names (ex: auto-clear-mocks)
 - pascal Case: will be used for all folder names (ex: TestNamePattern)
 - increment with zeros (ex: 001,  002,  003)
+
+list of technical conventions and restrictions chosen to maximize portability include:
 
 ## Resources
 

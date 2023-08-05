@@ -1,0 +1,12 @@
+
+
+
+/* Specify in CSS */
+/* code { font-family: 'Fira Code', monospace; } */
+
+
+var(--main-color);)
+
+@supports (font-variation-settings: normal) {
+  code { font-family: 'Fira Code VF', monospace; }
+}
