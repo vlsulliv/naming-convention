@@ -21,53 +21,51 @@ Folder names are intentionally lowercase to not mess with different systems and 
 
 # Contents
 | `Category`      | `Description`                                                   |
-| --------------- |  -------------------------------------------------------------- |
-| pc              | full length movies and specials e.g comedy specials             |
-| emulators       | short films released to broad audience usually under ~20 min    |  
-| mobile          | folder to back up mobile mobile games                           |
-| arcade          | store other 'niche' game that dont fit in other categories      |
-| modbay          | extra 'global' folder to store mod files, game guides, etc...   |    
+| --------------- | --------------------------------------------------------------- |
+| SteamLibrary    | stream application library for game storage                     |
+| Emulators       | allows a computing device to emulate a video game console       |  
+| Mobile          | folder to back up mobile games                                  |
+| Arcade          | store other 'niche' game that don't fit in other categories     |
+| Modbay          | extra 'global' folder to store mod files, game guides, etc...   |
 
+## Naming 
 
-
-
-# Naming 
-
-### pc
+### PC
 
 ```
 
 
 ```
 
-### emulatorss
+### Emulators
 
 ```
 
 
 ```
 
-### mobile
-```
+### Mobile
 
-
-```
-
-### arcade
 ```
 
 
 ```
 
-### modbay
-```
-
-
+### Arcade
 
 ```
 
 
-# Resources
+```
+
+### Modbay
+
+```
+
+
+```
+
+## Resources
 
 [Game Wiki](https://en.wikipedia.org/wiki/Game)  
 [PC Game](https://en.wikipedia.org/wiki/PC_game)  
@@ -80,5 +78,3 @@ Folder names are intentionally lowercase to not mess with different systems and 
 [Back to Top](#games)
 
 </div>
-
-
