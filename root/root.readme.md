@@ -1,17 +1,20 @@
-# Root
+# root
 
+files are categorized and sorted into 8 top categories. An additional category 'workspace' or 'collections' can be included for directories or projects that contain related files of different type/extension.
 
-- [Root](#root)
+>NOTE: these files are stored on a external storage system. the root directory is used to identify it as the top directory in the tree but is not related to the root directory root directory (c:) on the OS.
+
+## Table of Contents
+
+- [root](#root)
 - [Folder Structure and Content](#Folder-Structure-and-Content)
 - [Date](#date)
 - [Naming Case](#naming-case)
 - [Increment](#increment)
 
-## Folder Structure and Content
+## Folder Structure and Content  
 
-folder structure, content categories stored in each folder, and accepted file formats.
-
-| `Items`                                                        | `File Contents`                                             | `File Extensions`             |
+| `Directories`                                                  | `File Contents`                                             | `File Extensions`             |
 | -------------------------------------------------------------- | ----------------------------------------------------------- | ----------------------------- |
 | [Archive](../../naming-conventions/root/archives/README.md)    | Websites, datasets, backups, resources past retion date     | gz, zip, gzip                 |
 | [Music](../../naming-conventions/root/Music/README.md)         | Music, SoundFX, Podcasts, Audiobooks, Recordings, album art | mp3, ogg, aac, jpg            |
@@ -22,17 +25,18 @@ folder structure, content categories stored in each folder, and accepted file fo
 | [Software](../../naming-conventions/root/Software/README.md)   | Applications, mobile apps, OS's, Typography                 | exe                           |
 | [Video](../../naming-conventions/root/Video/README.md)         | Movies, Shows, Tutorials                                    | mp4, avi, flac, m4a, m4b, ogg |
 
-## File Name Construction
+## File Name Components
 
-File names will consist of multiple sections and the order of each section should be consistently applied. Sections should be written in the following order:
+Components will ensure each file is a unique entity in the file system and provide descriptive information in relation to the content it contains. File names will consist of the following components:
 
- 1. Date/ date-range
- 2. Study title/ Project name
- 3. Location of data collection
- 4. Version number
- 5. Contents of the file
- 6. Name/ initials
+- `date`
+- `title`
+- `location`
+- `version number`
+- `increment`
+- `extension`
 
+The components included in a file name and their order will vary between directory.
 
 ---
 

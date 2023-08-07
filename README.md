@@ -2,8 +2,6 @@
 
 local file naming style guide
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 ## Table of Contents
 
 - [naming convention](#naming-convention)
@@ -20,7 +18,6 @@ file names are unique entities that identify the its location in a file system. 
 
 ## Names
 
-Ampersands
 - Use "and" rather than an ampersand unless you’re referencing a brand name, for example: Procter & Gamble.
 
 - no special signs (e.g., * . ” / \ [ ] : ; | = , < ? > & $ # ! ‘( ) { })
@@ -29,7 +26,7 @@ Ampersands
 - maximum length (with pathname) of 256 characters
 - date standard formats, [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) (e.g. timestamp with YYYYMMDD)
 - kebab case: will be used for all file names (ex: auto-clear-mocks)
-- pascal Case: will be used for all folder names (ex: TestNamePattern)
+- pascal Case: will be used for all directory names (ex: TestNamePattern)
 - increment with zeros (ex: 001,  002,  003)
 
 list of technical conventions and restrictions chosen to maximize portability include:
@@ -48,7 +45,7 @@ reach out
 
 ## License
 
-created under the [MIT](/LICENSE) license
+created under the [**MIT**](/LICENSE) license: [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
 

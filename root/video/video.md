@@ -1,7 +1,6 @@
 # Videos
 
-this folder will store video file types and auxillary file types such as movie poster (jpg, png, etc...) or subtitles (txt, srt, etc...). 
-Other files such as subtitles, movie posters, etc... should go in the same folder. Folder and movie name should be same.
+Videos will contain movies, downloaded clips, tutorials, etc... Movies directory may include auxillary file types such as movie poster and subtitles (jpg, srt). Directory is structured to comply with PLEX library requirements.
  
 ## Table of Contents
 
@@ -18,8 +17,8 @@ Other files such as subtitles, movie posters, etc... should go in the same folde
 | Films            | full length movies and specials e.g comedy specials             |
 | ShortFilms       | short films released to broad audience usually under ~20 min    |
 | TV Show          | episodic, serial, or limited series television shows            |
-| Social           |                                                                 |
-| Instructional    | videos that deliver information needed to complete a task       |
+| Internet         | video clips downloaded from the web                             |
+| Tutorial         | videos that deliver information needed to complete a task       |
 
 ## File Formats
 
@@ -27,16 +26,15 @@ Other files such as subtitles, movie posters, etc... should go in the same folde
 **movie poster**: `*.{jpg,png,tbn}`  
 **subtitle files** `*.{SRT,SMI,SSA (or ASS)}`
 
-- pt1, pt2, etc.
-- cd1, cd2, etc.
+## Naming
 
 - `title` and `show`: are synonymous  
-- `s`, `se`, or `season`: indicating a season number.
-- `e`, `ep`, or `episode`: indicating an episode number. 
-- `sp`, or `special`: indicating an special number; this is equivalent to ep  
 - `year`: sets the release year of the series.
-
-## Naming
+- `pt1`, `pt2`: included for videos series
+- `cd1`, `cd2`: included for video series ripped from dvds
+- `sp`, `special`: indicating an special number; this is equivalent to ep  
+- `s`, `se`, or `season`: indicating a season number.
+- `e`, `ep`, or `episode`: indicating an episode number.
 
 **Movies**
 
@@ -51,7 +49,6 @@ Other files such as subtitles, movie posters, etc... should go in the same folde
       Batman Begins (2005).en.srt
       poster.jpg
 ```
-
 **TV Shows**
 
 - /`TV Shows`/`ShowName-ReleaseYear`/`Season##`/`sXXeXX-EpisodeName.ext`
@@ -69,12 +66,12 @@ Other files such as subtitles, movie posters, etc... should go in the same folde
          s01e02-From the Earth to the Moon.mp4
 ```
 
-**Instructional**
+**Tutorial**
 
-- /`Instructional`/`Topic`/`Description-DownloadDate.ext`
+- /`Tutorial`/`Topic`/`Description-DownloadDate.ext`
 
 ```text
-/Instructional
+/Tutorial
     /technology
         intro-to-javascript-20010204.mp4
 ```

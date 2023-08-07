@@ -10,3 +10,7 @@ var(--main-color);)
 @supports (font-variation-settings: normal) {
   code { font-family: 'Fira Code VF', monospace; }
 }
+
+:root {
+  font-size: 1em;
+}
