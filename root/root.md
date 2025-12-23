@@ -6,11 +6,10 @@ files are categorized and sorted into 8 top categories. An additional category '
 
 ## Table of Contents
 
-- [Root](#root)
-- [Folder Structure and Content](#Folder-Structure-and-Content)
-- [Date](#date)
-- [Naming Case](#naming-case)
-- [Increment](#increment)
+- [root](#root)
+- [Table of Contents](#table-of-contents)
+- [Folder Structure and Content](#folder-structure-and-content)
+- [File Name Components](#file-name-components)
 
 ## Folder Structure and Content  
 
