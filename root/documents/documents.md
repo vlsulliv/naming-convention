@@ -27,14 +27,13 @@ Table of Contents
 | `folder`        | `contents`                                                                |
 | --------------- | ------------------------------------------------------------------------- |
 | articles        | downloaded online Articles                                                |
-| blogs           |                                                                           |
-| standards       |                                                                           |
-| library         | collection of ebooks                                                      |
-| comics          |                                                                           |
-| technical papers|                                                                           |
-| standards       |                                                                           |
-| textbooks       |                                                                           |
-| guides          | |
+| blogs           | downloaded website blog post on random interesting topics.                |
+| standards       | docs from major standards bodies like ISO, ANSI, ASTM, etc...             |
+| library         | collection of ebooks, with genre sub-folders                              |
+| comics          | webcomics aka online comics or internet comics published online           |
+| technical papers| structured, informative document explaining complex subjects              |
+| textbooks       | comprehensive books designed for structure learning in a specific subject |
+| guides          | an interactive manual or tutorial, that provides structured information   |
 
 # Naming
 
