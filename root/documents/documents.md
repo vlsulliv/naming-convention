@@ -1,24 +1,26 @@
 # documents
 
+documents folder will contain various documents like saved articles, notes, books, personal documents, etc...
+
+The naming for some document categories do not conform with the general naming guidelines to favor readability as this folder holds a large number of document. Ability to easily navigate and identify a desired file was prioritized for this folder.
 
 common file types are: `*.{docx,txt,md,xlx,ppt,pdf}`
 
-Personal documents like letters, poems, forms, bills, etc.
-
-Table of Contents  
-===
+# Table of Contents  
  - [documents](#documents)  
  - [Table of Contents](#table-of-contents)  
  - [Content](#content)    
  - [Naming](#naming)  
-     - [news](#news)            
-     - [articles](#articles)        
-     - [blogs](#blogs)           
-     - [technical papers](#technical-papers])
-     - [standards](#standards)       
-     - [ebooks](#ebooks)          
-     - [comics](#comics)          
+     - [articles](#articles) 
+     - [comics](#comics)
+     - [data_sets](#data-sets)   
      - [textbooks](#textbooks) 
+     - [records_vault](#records-vault)    
+     - [notes](#notes)   
+     - [standards](#standards)
+     - [library](#library)               
+     - [technical_papers](#technical-papers])
+     - [guides](#guides)          
  - [Resources](#resources) 
 
 
@@ -26,98 +28,100 @@ Table of Contents
 
 | `folder`        | `contents`                                                                |
 | --------------- | ------------------------------------------------------------------------- |
-| articles        | downloaded online Articles                                                |
-| blogs           | downloaded website blog post on random interesting topics.                |
+| articles        | downloaded online articles or blogs.                                      |
+| comics          | webcomics aka online comics or internet comics published online           |
+| data_sets       | strutured collection of related data points, organized for analysis       |
+| textbooks       | comprehensive books designed for structure learning in a specific subject |
+| records vault   | personal documents such as letters, forms, bills, invoices etc... (consider moving to encrypted drive). |
+| notes           | personal notes 
 | standards       | docs from major standards bodies like ISO, ANSI, ASTM, etc...             |
 | library         | collection of ebooks, with genre sub-folders                              |
-| comics          | webcomics aka online comics or internet comics published online           |
-| technical papers| structured, informative document explaining complex subjects              |
-| textbooks       | comprehensive books designed for structure learning in a specific subject |
+| technical_papers| structured, informative document explaining complex subjects              |
 | guides          | an interactive manual or tutorial, that provides structured information   |
 
 # Naming
 
 ### articles/
 ```
-Subject
-   [Title]-YYYY-[Author Last], [Author First]
-   Main article: List of Dewey Decimal classes
-   (From DDC 23[44])
+Subject/ [Title]-YYYY-[Author first name]-[Author last name]
+
+i-still-cant-believe-google-killed-these-popular-services-2014-ben-stegner
+
 ```
 ### comics/
 ```
-[Title] [Comic_Book_Collection]
-   Comic Book - Issue Title
+[Title]-[ComicBook Collection] (YYYYMMDD)
+   
+marvel-the-amazing-spider-man (20220115)
 ```
-### data sets/
+### data_sets/
 ```
-ProjectName
-   [Data_Description] [Storage_Info] [File_Type]
+ProjectName/ [Data_Description]-[YYYMMDD]
+   
+ipv4-data-20130511
 ```
 ### textbooks/
 ```
-Dept
-   Title-Author-Subject
+Dept/ [Subject]-[Title]-[Author]-[YYYY]
+
+physics-learning-physics-101-john-doe-1991
 ```
 ### records_vault/
 ```
-   [YYYY]/ [YYYYMMDD] - [Correspondent] - [Title] - [tag, tag, tag]
+[YYYY]/ [company]-[title]-[YYYYMMDD] - *optional [tag, tag, tag]
 
-   2020/ 20200511 - Some Company Name - Invoice - money, financial.pdf
+2020/ geico-invoice-20200511 - money, financial.pdf
 ```
 ### notes/
 ```
-Alias_DOCID_Topic_SubTopic_Document_Name.ext
+topic/ [YYYYMMDD]-[topic]-[description]
 
-SulliV_Naming_Conventions.pdf
+meeting-notes/ 20150414-finance-increasing-q4-earnings.txt
 ```
+### standards/
+```
+ISO[/IEC] [/ASTM] [IS] nnnnn[-p]:[yyyy]
+
+ISO/IEC TR 17799:2000 Code of Practice for Information Security Management
+```
+
 ### library/
 ```
 (one author)
-Book Title by Author Last, Author First
+[Book Title] by [Author Last], [Author First]
 
 (multiple authers)
-Book Title by A1 Last, A1 First & A2 Last, A2 First
+[Book Title] by [A1 Last], [A1 First] & [A2 Last], [A2 First]
 
 (book edition)
-Book Title #st, #nd, #rd Edition  by Author Last, Author First
+[Book Title] [#st], [#nd], [#rd Edition]  by [Author Last], [Author First]
 
 Example: Cycle of the Werewolf by King, Stephen & Wrightson, Bernie (ill).epub
 ```
-<!--
-### Project/
+### technical_papers
 ```
-Template Global
-Research
-General Technical Guides
-PROJECTID
-YYYY-VSxxxxk (project 000).ext
-YYYY-PojectName+projectID - (EX: VSxxxxk).ext
+[JournalName]-[paper-title] by [author last name], [author first name] (YYYY)
+
+spe-carbon-capture-report by smith, john (1991)
 ```
--->
 
 ### guides/
 ```
-YYYY_SOFTWARE_GuideFocus_Version.ext
+[category]-[guide-name]-[YYYYMMDD]
+
+garden-keeping-plants-alive-20150414.pdf
+furniture-ikea-assembly-instructions-20150414.pdf
+
 ```
-### notes/
-```
-Subject/
-   YYYYMMDD-Subject-FileName-VNumber.xxx
-   151208_HURIDOCS_Casebox_Improvements.pdf
-   160126_HURIDOCS_EHRAC_meeting_notes.rtf
-```
-### developer_docs/
-``` 
-Dev topic 01/
-Dev topic 02/
-Dev topic 03/
-```
+
 ## Resources
 
+- [ISO Standards](https://en.wikipedia.org/wiki/International_Organization_for_Standardization)
+
+---
 
 <div style="text-align: center;">
 
-[Back to Top](#archive)
+[Back to Top](#documents)
 
 </div>
