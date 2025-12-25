@@ -18,7 +18,7 @@ Table of Contents
 
 | `Folder`    | `Contents`                                                                |
 | ----------- | ------------------------------------------------------------------------- |
-| Articles    | downloaded online Articles                                                |
+| articles    | downloaded online Articles                                                |
 | books       | recordings of books read by a person (aka audiobooks)                     |
 | music       | music artists   bands                                                     |
 | playlists   | radio streams, music playlists, ..                                        |

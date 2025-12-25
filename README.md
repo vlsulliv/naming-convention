@@ -7,7 +7,10 @@ Naming convention is a framework for naming personal files and folders to make t
 - [Naming Convention](#naming-convention) 
 - [Background](#background)
 - [Folder Names](#folder-names)
+  - [Folder Naming Guidelines](#folder-naming-guidelines)
 - [File Names](#file-names)
+  - [File Naming Guideline](#file-naming-guidelines)
+  - [File Name Components](#file-name-components)
 - [Technical Restrictions](#technical-restrictions)
   - [Linux](#linux)
   - [Windows](#windows)
@@ -59,6 +62,19 @@ As previously mentioned, file name conventions will vary depending on the type o
  - Date standard formats, [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) (`YYYYMMDD` or `YYYY`-`MM`-`DD`).
  - Sequential numbers: increment with leading zeros (ex: `001`,  `002`,  `003`)
  - Versioning: use `v01`, `v02`, `v03` to track document versions
+
+## File Name Components
+
+Components will ensure each file is a unique entity in the file system and provide descriptive information in relation to the content it contains. File names will consist of the following components:
+
+- `date`
+- `title`
+- `location`
+- `version number`
+- `increment`
+- `extension`
+
+The components included in a file name and their order will vary between directory.
 
 ## Technical Restrictions
 

@@ -1,41 +1,34 @@
 # root
 
-files are categorized and sorted into 8 top categories. An additional category 'workspace' or 'collections' can be included for directories or projects that contain related files of different type/extension.
+The root folder is the top folder that contains all folders and files. In this project, root is used as a placeholder name - give this folder an appropriate name. ex: `my-files`, `documents`, if placing on an external drive `f:\some-file-name`.
 
->NOTE: these files are stored on a external storage system. the root directory is used to identify it as the top directory in the tree but is not related to the root directory root directory (c:) on the OS.
+Files are categorized and sorted into 8 top categories. An additional category 'workspace' or 'collections' can be included for directories or projects that contain related files of different type/extension.
+
+>NOTE: if these files are stored on a external storage system. the root directory is used to identify it as the top directory in the tree but is not related to the root directory root directory (c:) on the OS.
 
 ## Table of Contents
 
 - [root](#root)
 - [Table of Contents](#table-of-contents)
 - [Folder Structure and Content](#folder-structure-and-content)
-- [File Name Components](#file-name-components)
+- [Subfolders](#subfolders)
 
 ## Folder Structure and Content  
 
 | `Directories`                                                  | `File Contents`                                             | `File Extensions`             |
 | -------------------------------------------------------------- | ----------------------------------------------------------- | ----------------------------- |
-| [Archive](../../naming-conventions/root/archives/README.md)    | Websites, datasets, backups, resources past retion date     | gz, zip, gzip                 |
-| [Music](../../naming-conventions/root/Music/README.md)         | Music, SoundFX, Podcasts, Audiobooks, Recordings, album art | mp3, ogg, aac, jpg            |
-| [Documents](../../naming-conventions/root/Documents/README.md) | Notes, Personal documents (Invoices, letters, emails)       | pdf,doc,ppt,xls               |
-| [Games](../../naming-conventions/root/Games/README.md)         | Computer, arcade, any-other, extention packs                | exe                           |
-| [Images](../../naming-conventions/root/Images/README.md)       | Photography, Art, memes, etc                                | raw, jpg, gif                 |
-| [Library](../../naming-conventions/root/Library/README.md)     | Books, writings, scientific papers, articles, magazines     | epub, mobi, pdf               |
-| [Software](../../naming-conventions/root/Software/README.md)   | Applications, mobile apps, OS's, Typography                 | exe                           |
-| [Video](../../naming-conventions/root/Video/README.md)         | Movies, Shows, Tutorials                                    | mp4, avi, flac, m4a, m4b, ogg |
+| [archive](../../naming-conventions/root/archives/README.md)    | websites, datasets, backups, resources past retion date     | gz, zip, gzip                 |
+| [audio](../../naming-conventions/root/Music/README.md)         | music, SoundFX, Podcasts, Audiobooks, Recordings, album art | mp3, ogg, aac, jpg            |
+| [docs](../../naming-conventions/root/Documents/README.md) | notes, Personal documents (Invoices, letters, emails)       | pdf,doc,ppt,xls               |
+| [game](../../naming-conventions/root/Games/README.md)         | computer, arcade, any-other, extention packs                | exe                           |
+| [img](../../naming-conventions/root/Images/README.md)       | photography, Art, memes, etc                                | raw, jpg, gif                 |
+| [lib](../../naming-conventions/root/Library/README.md)     | books, writings, scientific papers, articles, magazines     | epub, mobi, pdf               |
+| [software](../../naming-conventions/root/Software/README.md)   | applications, mobile apps, OS's, Typography                 | exe                           |
+| [vids](../../naming-conventions/root/Video/README.md)         | movies, Shows, Tutorials                                    | mp4, avi, flac, m4a, m4b, ogg |
 
-## File Name Components
+## Subfolders
 
-Components will ensure each file is a unique entity in the file system and provide descriptive information in relation to the content it contains. File names will consist of the following components:
-
-- `date`
-- `title`
-- `location`
-- `version number`
-- `increment`
-- `extension`
-
-The components included in a file name and their order will vary between directory.
+These 8 top folders will contain subfolders. Subfolders will be named by general category so that they contain the largest amount of related files. 
 
 ---
 

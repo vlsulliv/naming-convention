@@ -1,17 +1,18 @@
 # Archive
 
-The archives section has the least strict rules about file allocation for any top-level directory, however, it is still important that it is understood what can go in the section and what cannot. Generally, any particular file that you struggle to allocate to any top-level directory can typically be put into the archives directory, as those files will typically be for 'archival' purposes. The only potential exception is creative assets, as these can often be actively used, so these could also be split into a new top-level directory if you choose. The Archive directory Will include long term storage  items & other 'assets' are not assessed freqently. 
+The archives section has the least strict rules about file allocation for any top-level directory, however, it is still important that it is understood what can go in the section and what cannot. Generally, any particular file that you struggle to allocate to any top-level directory can typically be put into the archives directory, as those files will typically be for 'archival' purposes. The only potential exception is creative assets, as these can often be actively used, so these could also be split into a new top-level directory if you choose. The Archive directory Will include long term storage  items & other 'assets' are not assessed frequently. 
 
 ## Table of Contents
 
  - [Archive](#archive)
  - [Content](#content)  
  - [Naming](#naming)
- - [accounts](#resources)  
- - [bookmarks](#bookmarks)  
- - [backups](#backups)  
- - [new](#news)  
- - [websites](#websites)
+    - [accounts](#resources)  
+    - [bookmarks](#bookmarks)  
+    - [backups](#backups)  
+    - [new](#news)  
+    - [websites](#websites)
+- [Resources](#resources)
 
 # Content
 
@@ -27,35 +28,39 @@ The archives section has the least strict rules about file allocation for any to
 
 ### Accounts/
 ```
-[Company] - [MMM YYYY]
+[Company]-[YYYY-MM-DD]
 
-Netflix - AUG 2022
+netflix-20220819
 ```
 ### Bookmarks/
 ```
-[browser] - [YYYYMMDD]
+[browser]-[YYYYMMDD]
 
-chrome - 20200519
+chrome-20200519
 ```
 
 ### Backups/
 ```
-[device]/ [backup_type] - [time_stamp]
+[device]/ [backup_type] - [YYYYMMDD]
 
 (specify backup)
-pixel3a/ images - 20221027T14:30:00-04:00
+pixel3a/ images/ photo-01-20221027
+pixel3a/ images/ photo-02-20221027
+pixel3a/ images/ photo-03-20221027
 ```
 
 ### News/
 ```
 [publication]/ [article name] (YYYYMMDD)
 
-new york times/ we reports news (20220529)
+new_york_times/ we-report-news (20220529)
 ```
 
 ### Websites/
 ```
-website title 
+[website-title]-[YYYYMMDD]
+
+cool-website-capture-20220529
 ```
 
 # Resources
