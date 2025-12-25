@@ -21,7 +21,6 @@ The archives section has the least strict rules about file allocation for any to
 | accounts  | data from different accounts e.g google, linkedin etc...                   |
 | bookmarks | exported bookmarks from internet browsers                                  |
 | backups   | non-filetree backups e.g old phone data                                    |
-| news      | information/intel about events/history, including leaked confidential data |
 | websites  | snapshots of websites at a specific time                                   |
 
 # Naming
@@ -48,14 +47,6 @@ pixel3a/ images/ photo-01-20221027
 pixel3a/ images/ photo-02-20221027
 pixel3a/ images/ photo-03-20221027
 ```
-
-### News/
-```
-[publication]/ [article name] (YYYYMMDD)
-
-new_york_times/ we-report-news (20220529)
-```
-
 ### Websites/
 ```
 [website-title]-[YYYYMMDD]

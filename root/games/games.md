@@ -1,4 +1,4 @@
-# Games
+# games
 
 >A game is a structured form of play, usually undertaken for entertainment or fun, and sometimes used as an educational tool.
 
@@ -9,7 +9,7 @@ If you only use this games folder for videogames, you can remove the other folde
 Folder names are intentionally lowercase to not mess with different systems and to have a cli friendy structure. You can change that if you wish to, especially further down e.g. on the individual videogame systems or on certain tabletop games. It really depends if you curate for accessiblity or for pure archival.
 
 # Table of contents  
-- [Games](#games)
+- [games](#games)
 - [Table of contents](#table-of-contents)
 - [Naming](#naming)
     - [Arcade](#arcade)
@@ -20,7 +20,7 @@ Folder names are intentionally lowercase to not mess with different systems and 
 
 
 # Contents
-| `Category`      | `Description`                                                   |
+| `folder`      | `contents`                                                   |
 | --------------- | --------------------------------------------------------------- |
 | SteamLibrary    | stream application library for game storage                     |
 | Emulators       | allows a computing device to emulate a video game console       |  
@@ -67,9 +67,9 @@ Folder names are intentionally lowercase to not mess with different systems and 
 
 ## Resources
 
-[Game Wiki](https://en.wikipedia.org/wiki/Game)  
-[PC Game](https://en.wikipedia.org/wiki/PC_game)  
-[List Consoles](https://en.wikipedia.org/wiki/Home_video_game_console#List_of_home_video_game_consoles)  
+- [Game Wiki](https://en.wikipedia.org/wiki/Game)  
+- [PC Game](https://en.wikipedia.org/wiki/PC_game)  
+- [List Consoles](https://en.wikipedia.org/wiki/Home_video_game_console#List_of_home_video_game_consoles)  
 
 ---
 

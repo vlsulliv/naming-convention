@@ -1,69 +1,78 @@
-# Documents
+# documents
 
-The (digital) audio section contains any kind of sound that is contained within a file - such as music, sounds, sound effects, podcasts, audiobooks, event recordings (musicals, concerts, standup comedy), games and many others.
 
-common file types are: `*.{docx,txt,md,xlx,ppt}`
+common file types are: `*.{docx,txt,md,xlx,ppt,pdf}`
 
 Personal documents like letters, poems, forms, bills, etc.
 
 Table of Contents  
 ===
- - [Documents](#documents)  
+ - [documents](#documents)  
+ - [Table of Contents](#table-of-contents)  
  - [Content](#content)    
  - [Naming](#naming)  
+     - [news](#news)            
+     - [articles](#articles)        
+     - [blogs](#blogs)           
+     - [technical papers](#technical-papers])
+     - [standards](#standards)       
+     - [ebooks](#ebooks)          
+     - [comics](#comics)          
+     - [textbooks](#textbooks) 
  - [Resources](#resources) 
 
 
 # Content
 
-| `Folder`    | `Contents`                                                                |
-| ----------- | ------------------------------------------------------------------------- |
-| articles    | downloaded online Articles                                                |
-| books       | recordings of books read by a person (aka audiobooks)                     |
-| music       | music artists   bands                                                     |
-| playlists   | radio streams, music playlists, ..                                        |
-| podcasts    | audio-only broadcasts.. alternative name: `netcasts`                      |
-| recordings  | voice memos, studio recordings, usually RAW wave audio                    |
-| soundFX     | audio effects like fire, crashes, screaming, clapping, etc.               |
-| soundtracks | audio content related to other media like movies, tv-shows and videogames |
+| `folder`        | `contents`                                                                |
+| --------------- | ------------------------------------------------------------------------- |
+| articles        | downloaded online Articles                                                |
+| blogs           |                                                                           |
+| standards       |                                                                           |
+| library         | collection of ebooks                                                      |
+| comics          |                                                                           |
+| technical papers|                                                                           |
+| standards       |                                                                           |
+| textbooks       |                                                                           |
+| guides          | |
 
 # Naming
 
-Articles/
+### articles/
 ```
 Subject
    [Title]-YYYY-[Author Last], [Author First]
    Main article: List of Dewey Decimal classes
    (From DDC 23[44])
 ```
-Comics/
+### comics/
 ```
 [Title] [Comic_Book_Collection]
    Comic Book - Issue Title
 ```
-Data Sets/
+### data sets/
 ```
 ProjectName
    [Data_Description] [Storage_Info] [File_Type]
 ```
-TextBooks/
+### textbooks/
 ```
 Dept
    Title-Author-Subject
 ```
-Records-Vault/
+### records_vault/
 ```
    [YYYY]/ [YYYYMMDD] - [Correspondent] - [Title] - [tag, tag, tag]
 
    2020/ 20200511 - Some Company Name - Invoice - money, financial.pdf
 ```
-Notes/
+### notes/
 ```
 Alias_DOCID_Topic_SubTopic_Document_Name.ext
 
 SulliV_Naming_Conventions.pdf
 ```
-Books/
+### library/
 ```
 (one author)
 Book Title by Author Last, Author First
@@ -76,7 +85,8 @@ Book Title #st, #nd, #rd Edition  by Author Last, Author First
 
 Example: Cycle of the Werewolf by King, Stephen & Wrightson, Bernie (ill).epub
 ```
-Project/
+<!--
+### Project/
 ```
 Template Global
 Research
@@ -85,18 +95,20 @@ PROJECTID
 YYYY-VSxxxxk (project 000).ext
 YYYY-PojectName+projectID - (EX: VSxxxxk).ext
 ```
-Guides/
+-->
+
+### guides/
 ```
 YYYY_SOFTWARE_GuideFocus_Version.ext
 ```
-Notes/
+### notes/
 ```
 Subject/
    YYYYMMDD-Subject-FileName-VNumber.xxx
    151208_HURIDOCS_Casebox_Improvements.pdf
    160126_HURIDOCS_EHRAC_meeting_notes.rtf
 ```
-Developer docs/
+### developer_docs/
 ``` 
 Dev topic 01/
 Dev topic 02/

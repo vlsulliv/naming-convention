@@ -82,9 +82,9 @@ Table of Contents
 
 # Resources  
 
-- [Img Wiki](https://en.wikipedia.org/wiki/Image)
+- [Image Wiki](https://en.wikipedia.org/wiki/Image)
 - [Img Art](https://en.wikipedia.org/wiki/Work_of_art)
-- [Exif Tool](https://exiftool.org/)
+- [Exif Tool](https://exiftool.org/) 
 
 ---
 

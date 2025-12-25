@@ -17,14 +17,14 @@ Files are categorized and sorted into 8 top categories. An additional category '
 
 | `Directories`                                                  | `File Contents`                                             | `File Extensions`             |
 | -------------------------------------------------------------- | ----------------------------------------------------------- | ----------------------------- |
-| [archive](../../naming-conventions/root/archives/README.md)    | websites, datasets, backups, resources past retion date     | gz, zip, gzip                 |
-| [audio](../../naming-conventions/root/Music/README.md)         | music, SoundFX, Podcasts, Audiobooks, Recordings, album art | mp3, ogg, aac, jpg            |
-| [docs](../../naming-conventions/root/Documents/README.md) | notes, Personal documents (Invoices, letters, emails)       | pdf,doc,ppt,xls               |
-| [game](../../naming-conventions/root/Games/README.md)         | computer, arcade, any-other, extention packs                | exe                           |
-| [img](../../naming-conventions/root/Images/README.md)       | photography, Art, memes, etc                                | raw, jpg, gif                 |
-| [lib](../../naming-conventions/root/Library/README.md)     | books, writings, scientific papers, articles, magazines     | epub, mobi, pdf               |
+| [archives](../../naming-conventions/root/archives/README.md)    | websites, datasets, backups, resources past retention date     | gz, zip, gzip                 |
+| [music](../../naming-conventions/root/Music/README.md)         | music, SoundFX, Podcasts, Audiobooks, Recordings, album art | mp3, ogg, aac, jpg            |
+| [documents](../../naming-conventions/root/Documents/README.md) | notes, Personal documents (Invoices, letters, emails)       | pdf,doc,ppt,xls               |
+| [gamse](../../naming-conventions/root/Games/README.md)         | computer, arcade, any-other, extention packs                | exe                           |
+| [imgages](../../naming-conventions/root/Images/README.md)       | photography, Art, memes, etc                                | raw, jpg, gif                 |
+| [library](../../naming-conventions/root/Library/README.md)     | books, writings, scientific papers, articles, magazines     | epub, mobi, pdf               |
 | [software](../../naming-conventions/root/Software/README.md)   | applications, mobile apps, OS's, Typography                 | exe                           |
-| [vids](../../naming-conventions/root/Video/README.md)         | movies, Shows, Tutorials                                    | mp4, avi, flac, m4a, m4b, ogg |
+| [video](../../naming-conventions/root/Video/README.md)         | movies, Shows, Tutorials                                    | mp4, avi, flac, m4a, m4b, ogg |
 
 ## Subfolders
 
