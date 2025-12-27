@@ -9,7 +9,7 @@ common file types are: `*.{docx,txt,md,xlx,ppt,pdf}`
 # Table of Contents  
  - [documents](#documents)  
  - [Table of Contents](#table-of-contents)  
- - [Content](#content)    
+     - [Content](#content)    
  - [Naming](#naming)  
      - [articles](#articles) 
      - [comics](#comics)
@@ -30,7 +30,7 @@ common file types are: `*.{docx,txt,md,xlx,ppt,pdf}`
 | --------------- | ------------------------------------------------------------------------- |
 | articles        | downloaded online articles or blogs.                                      |
 | comics          | webcomics aka online comics or internet comics published online           |
-| data_sets       | strutured collection of related data points, organized for analysis       |
+| data_sets       | structured collection of related data points, organized for analysis       |
 | textbooks       | comprehensive books designed for structure learning in a specific subject |
 | records vault   | personal documents such as letters, forms, bills, invoices etc... (consider moving to encrypted drive). |
 | notes           | personal notes 
@@ -56,7 +56,7 @@ marvel-the-amazing-spider-man (20220115)
 ```
 ### data_sets/
 ```
-ProjectName/ [Data_Description]-[YYYMMDD]
+ProjectName/ [Data_Description]-[YYYYMMDD]
    
 ipv4-data-20130511
 ```
@@ -90,7 +90,7 @@ ISO/IEC TR 17799:2000 Code of Practice for Information Security Management
 (one author)
 [Book Title] by [Author Last], [Author First]
 
-(multiple authers)
+(multiple authors)
 [Book Title] by [A1 Last], [A1 First] & [A2 Last], [A2 First]
 
 (book edition)
