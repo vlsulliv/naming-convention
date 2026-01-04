@@ -12,6 +12,7 @@ The archives section has the least strict rules about file allocation for any to
     - [backups](#backups)  
     - [new](#news)  
     - [websites](#websites)
+    - [temp](#temp)
 - [Resources](#resources)
 
 # Content
@@ -22,6 +23,7 @@ The archives section has the least strict rules about file allocation for any to
 | bookmarks | exported bookmarks from internet browsers                                  |
 | backups   | non-filetree backups e.g old phone data                                    |
 | websites  | snapshots of websites at a specific time                                   |
+| temp      | misc files stored for sorting, clear aggressively                          |
 
 # Naming
 

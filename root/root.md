@@ -20,8 +20,8 @@ Files are categorized and sorted into 8 top categories. An additional category '
 | [archives](../../naming-conventions/root/archives/README.md)    | websites, datasets, backups, resources past retention date     | gz, zip, gzip                 |
 | [music](../../naming-conventions/root/Music/README.md)         | music, SoundFX, Podcasts, Audiobooks, Recordings, album art | mp3, ogg, aac, jpg            |
 | [documents](../../naming-conventions/root/Documents/README.md) | notes, Personal documents (Invoices, letters, emails)       | pdf,doc,ppt,xls               |
-| [gamse](../../naming-conventions/root/Games/README.md)         | computer, arcade, any-other, extention packs                | exe                           |
-| [imgages](../../naming-conventions/root/Images/README.md)       | photography, Art, memes, etc                                | raw, jpg, gif                 |
+| [games](../../naming-conventions/root/Games/README.md)         | computer, arcade, any-other, extention packs                | exe                           |
+| [images](../../naming-conventions/root/Images/README.md)       | photography, Art, memes, etc                                | raw, jpg, gif                 |
 | [library](../../naming-conventions/root/Library/README.md)     | books, writings, scientific papers, articles, magazines     | epub, mobi, pdf               |
 | [software](../../naming-conventions/root/Software/README.md)   | applications, mobile apps, OS's, Typography                 | exe                           |
 | [video](../../naming-conventions/root/Video/README.md)         | movies, Shows, Tutorials                                    | mp4, avi, flac, m4a, m4b, ogg |
